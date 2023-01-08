@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+   Add Listing
+{% endblock %}
+
+{% block main %}
+<div class="container">
+   <div class="section">
+       <div class="error_message">
+           {{ message }}
+       </div>
+       <h1>Add a Listing</h1>
+       <form action="/addlisting" method="POST" enctype="multipart/form-data">
+           <input name="productname" type="text" placeholder="Product Name" autocomplete="off" autofocus>
+           <input name="description" type="text" placeholder="Description" autocomplete="off" autofocus>
+           <input name="price" type="text" placeholder="Price" autocomplete="off" autofocus>
+           <input name="location" type="text" placeholder="Location" autocomplete="off" autofocus>
+           <input name="email" type="text" placeholder="Email" autocomplete="off" autofocus>
+           <input name="phone" type="number" placeholder="Phone" autocomplete="off" autofocus>
+           <input type="file" name="file" autocomplete="off" required>
+           <input type="submit" value="Add Listing">
+       </form>
+   </div>
+   </div>
+{% endblock %}

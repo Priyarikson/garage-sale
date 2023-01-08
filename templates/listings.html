@@ -1,0 +1,58 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    listings
+{% endblock %}
+
+{% block main %}
+<div class="section">
+
+    <h2 class="header">All Listings</h2>
+
+        <body>
+
+            {% for listing in alllisting %}
+
+            <ul>
+                
+                <div>
+                    <p><img src="static/uploads/{{ listing.filename }}"></p>
+                </div>
+
+                <div>
+                    <p>Product Name:{{ listing.productname }}</p>
+                </div>
+
+                <div>
+                    <p>Description:{{ listing.description }}</p>
+                </div>
+
+                <div>
+                    <p>Price:{{ listing.price }}</p>
+                </div>
+
+                <div>
+                    <p>Location:{{ listing.location }}</p>
+                </div>
+
+                <div>
+                    <p>Email:{{ listing.email }}</p>
+                </div>
+
+                <div>
+                    <p>Phone:{{ listing.phone }}</p>
+                </div>
+
+                <div>
+                    <p>Date/Time:{{ listing.time }}</p>
+                </div>
+
+            </ul>
+
+            {% endfor %}
+
+        </body>
+
+
+</div>
+{% endblock %}
