@@ -1,11 +1,11 @@
 # GARAGE SALE
 #### Video Demo:  <https://youtu.be/ZDyV62YtwDA>
 #### Description:
-![](Screenshot 2023-01-15 at 11.15.12 PM.png)
-![](Screenshot 2023-01-15 at 11.16.57 PM.png)
-![](Screenshot 2023-01-15 at 11.18.39 PM.png)
-![](Screenshot 2023-01-15 at 11.18.59 PM.png)
-![](Screenshot 2023-01-15 at 11.19.28 PM.png)
+![pic1](pic1.png)
+![pic2](pic2.png)
+![pic3](pic3.png)
+![pic4](pic4.png)
+![pic5](pic5.png)
 
 My Final Project name is Garage Sale.I have implemented a website via which users can “buy” and “sell” products.An online marketplace where we can sell,buy things or we can freely give away products.When i say products which can be used or new.
 I am using the CS50 Codespace to implement this project.
