@@ -1,6 +1,12 @@
 # GARAGE SALE
 #### Video Demo:  <https://youtu.be/ZDyV62YtwDA>
 #### Description:
+![](/Users/priyankaraju/repos/garage-sale/static/uploads/Screenshot 2023-01-15 at 11.15.12 PM.png)
+![](/Users/priyankaraju/repos/garage-sale/static/uploads/Screenshot 2023-01-15 at 11.16.57 PM.png)
+![](/Users/priyankaraju/repos/garage-sale/static/uploads/Screenshot 2023-01-15 at 11.18.39 PM.png)
+![](/Users/priyankaraju/repos/garage-sale/static/uploads/Screenshot 2023-01-15 at 11.18.59 PM.png)
+![](/Users/priyankaraju/repos/garage-sale/static/uploads/Screenshot 2023-01-15 at 11.19.28 PM.png)
+
 My Final Project name is Garage Sale.I have implemented a website via which users can “buy” and “sell” products.An online marketplace where we can sell,buy things or we can freely give away products.When i say products which can be used or new.
 I am using the CS50 Codespace to implement this project.
 project.db is a SQLite database with two tables, users, that has three columns: id, username and hash.listing which has nine columns:id, user_id, productname, description, price, location, email, phone, time.
